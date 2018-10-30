@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap form {
+	margin: 20px 0;
+}
+.pnq-gwf-notice-list {
+	padding: 0 10px;
+}
+.pnq-gwf-notice-list li {
+	list-style: disc inside;
+}
+.pnq-gwf-select {
+	width: 25em;
+}
+.pnq-gwf-select-font-size {
+	width: 7em;
+}
+.pnq-gwf-apply-list {
+	margin: 0;
+}
+.pnq-gwf-apply-list li {
+	display: block;
+	float: left;
+	text-align: center;
+	padding: 0 1em;
+	border: 1px solid #dfdfdf;
+	margin: 0 1em 0 0;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 1em;
+}
+.pnq-gwf-apply-list li.on {
+	border: 1px solid #5897fb;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.pnq-gwf-form-section {
+	padding: 0 0 2em;
+}
+.pnq-gwf-font-preview {
+	border: 1px solid #ccc;
+	background-color: #f3f3f3;	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0 20px;
+}
+.pnq-gwf-preview-zone {
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+.pnq-gwf-preview-control {
+	float: left;
+	margin: 0 2em 1em 0;	
+}
+.pnq-gwf-font-rule {
+	border: 1px solid #ccc;
+	background-color: #f3f3f3;	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px 20px;
+	width: 560px;
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 1.2em;
+}
+.pnq-gwf-font-rule .delete {
+	position: absolute;
+	right: 10px; 
+	top: 10px;
+	display: inline-block;		
+	width: 10px; 
+	height: 10px;
+	background-image: url('../images/xit.gif');
+	background-position: 0px 10px;
+}
+.pnq-gwf-font-rule .delete:hover {
+	background-position: 10px 10px;
+}
+.pnq-gwf-font-rule div {
+	margin: 0px;	
+	line-height: 1.8em;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.pnq-gwf-font-rule p {
+	margin: 0px !important;
+	padding-left: 90px;
+}
+.pnq-gwf-font-rule h4 {
+	width: 80px;
+	float: left;
+	margin: 0px;
+}
+.pnq-gwf-help-tab-list {
+	margin: 0px;
+}
+.pnq-gwf-help-tab-list li {
+	list-style: none;	
+	margin-left: 0px;
+}
+.clearfix:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+/* @group Retina compatibility */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
+	.pnq-gwf-font-rule .delete {
+		background-image: url('../images/xit-2x.gif') !important;
+		background-size: 20px 10px !important;
+		background-repeat: no-repeat !important;
+	}
+}
+/* @end */
